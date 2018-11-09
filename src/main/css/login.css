@@ -1,0 +1,99 @@
+.Sj-login {
+    border: solid 3px #dedede;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: block;
+}
+
+.login-name {
+    width: 315px;
+    border-radius: 5px;
+    padding: 12px 0px;
+    padding-left: 35px;
+    border: solid 1px #d2d0d0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-top: 14px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.reg-header {
+    width: 90%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.reg-header .h1 {
+    width: 9.5%;
+    border-bottom: solid 2px #f16154;
+    padding: 10px 0;
+    float: left;
+    margin-top: 5px;
+}
+
+.reg-header .h1 h1 {
+    font-size: 20px;
+}
+
+.login-pwd {
+    width: 315px;
+    border-radius: 5px;
+    padding: 12px 0px;
+    padding-left: 35px;
+    border: solid 1px #d2d0d0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin-top: 14px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.login-content {
+    width: 315px;
+    margin: 0 auto;
+}
+
+.login-sumbit {
+    font-weight: normal;
+    border: none;
+    background-color: #f16154;
+    color: white;
+    height: 45px;
+    font-size: 20px;
+    margin: 14px 0px;
+    width: 100%;
+    outline: none;
+}
+
+.reg-login {
+    width: 90%;
+    border-bottom: solid 2px #dedede;
+    padding: 11.5px 0;
+    float: left;
+}
+
+.reg-login p {
+    text-align: right;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.reg-login p a {
+    color: #f16154;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.reg-content {
+    width: 90%;
+    overflow: hidden;
+    margin: 0px auto;
+    padding-bottom: 15px;
+    padding: 50px 0 50px;
+}
+
+body{
+    background-color: #f4f5f9;
+}

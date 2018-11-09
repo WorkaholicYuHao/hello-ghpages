@@ -1,0 +1,131 @@
+.Sj-regist {
+    width: 1070px;
+    margin: 20px auto;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.updataPwd-header {
+    height: 28px;
+    line-height: 14px;
+}
+
+strong {
+    font-size: 14px;
+    color: #444444;
+    position: relative;
+}
+
+.updataPwd-content {
+    border: 9px solid #f0f0f0;
+    margin-bottom: 20px;
+    min-height: 132px;
+    padding-bottom: 60px;
+}
+
+.updataPwd_main{
+    width: 700px;
+    margin: 46px auto;
+}
+
+.main_top {
+    height: 118px;
+    margin-bottom: 30px;
+}
+
+.main_left {
+    float: left;
+    width: 340px;
+    height: 116px;
+    border: 1px solid #d4d4d4;
+}
+
+label, input, select {
+    vertical-align: middle;
+}
+
+.main_input{
+    float: left !important;
+    margin-top: 50px !important;
+    margin-left: 40px !important;
+}
+
+.main_right {
+    float: left;
+    width: 340px;
+    height: 116px;
+    border: 1px solid #d4d4d4;
+    margin-left: 15px;
+}
+
+.isRed{
+    border: 1px solid #f57777;
+    background: #fff5f5;
+}
+
+.main_bottom {
+    margin-top: 20px;
+}
+
+.main_tv {
+    height: 30px;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+
+.main_cs{
+    width: 100px;
+    height: 30px;
+    display: block;
+    float: left;
+    color: #666666;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.nat_ttv {
+    width: 217px;
+    height: 28px;
+    padding-left: 3px;
+    float: left;
+    border: 1px solid #7f9db9;
+    margin-left: 5px;
+    color: #999;
+    line-height: 28px;
+    display: inline;
+}
+
+.main_tv a {
+    float: left;
+    color: #4e87c8;
+    margin: 0px 4px;
+}
+
+.main_tv em {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 110px;
+    font-style: normal;
+}
+
+.main_pct {
+    height: 40px;
+    margin: 30px 25px;
+    line-height: 40px;
+}
+
+.main_pct a {
+    display: block;
+    width: 134.5px;
+    height: 34px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    font-weight: bold;
+    background: #DB1D1D;
+    color: white;
+    border: 1px solid #f25f55;
+    border-radius: 5px;
+}

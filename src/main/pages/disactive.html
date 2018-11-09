@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>折多多</title>
+    <link rel="stylesheet" href="/src/main/css/main.css">
+    <link rel="stylesheet" href="/src/main/layui/css/layui.css">
+    <link rel="stylesheet" href="/src/main/css/person.css">
+    <link rel="stylesheet" href="/src/main/css/disactive.css">
+    <link rel="stylesheet" href="/src/main/css/iconfont.css">
+    <script src="/src/main/layui/layui.js"></script>
+</head>
+<style>
+    .layui-tab {
+        width: 848px;
+        background-color: white;
+        text-align: left !important;
+        margin: 0 0;
+        min-height: 800px;
+    }
+    
+    .layui-tab-title {
+        margin: 0 10px;
+    }
+    
+    .layui-tab-title li {
+        float: left;
+        vertical-align: middle;
+        font-size: 14px;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        position: relative;
+        line-height: 40px;
+        min-width: 65px;
+        padding: 0 26px;
+        text-align: center;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <div class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" href="http://hsrj.co"><img src="http://p8zxgltyx.bkt.clouddn.com/images/logo.png" alt="折多多" title="折多多"></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="/index.html" onclick="firstPage()" title="折多多">首页</a></li>
+                        <li><a href="/src/main/pages/register.html">注册</a></li>
+                        <li><a href="/src/main/pages/login.html">登陆</a></li>
+                        <!--
+<li><a href="#overview">花生日记是什么</a></li>
+<li><a href="#reg">如何注册</a></li>
+<li><a href="#features">APP功能介绍</a></li>
+<li><a href="#screens">用户权益</a></li>
+<li><a href="#download">官方APP下载</a></li>
+-->
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">菜单<span></span></a>
+            </div>
+
+        </header>
+
+        <div style="height: 200px"></div>
+        <div class="Sj-person">
+            <div class="left-person">
+                <div class="first_person">
+                    <a class="first_person_a" href="/src/main/pages/person.html"> 个人中心首页</a>
+                </div>
+                <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                    <li class="layui-nav-item ">
+                        <a href="javascript:;">精选试用管理</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="/src/main/pages/adversting.html">发布活动</a></dd>
+                            <dd><a href="/src/main/pages/activities.html">全部活动</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;">折扣试用管理</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="/src/main/pages/introduce.html">模式介绍</a></dd>
+                            <dd><a href="/src/main/pages/discounts.html">发布活动</a></dd>
+                            <dd><a href="/src/main/pages/disactive.html">全部活动</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;">我的账户</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="/src/main/pages/management.html">店铺管理</a></dd>
+                            <dd><a href="/src/main/pages/putforward.html">提现/账户明细</a></dd>
+                            <dd><a href="/src/main/pages/accountnumber.html">我的提现账号</a></dd>
+                            <dd><a href="/src/main/pages/safey.html">账户安全</a></dd>
+                            <dd><a href="/src/main/pages/recharge.html">账户充值</a></dd>
+                        </dl>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="javascript:;">VIP通道</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="/src/main/pages/tovip.html">成为VIP</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_person">
+                <div class="disactive">
+                    <div class="title">
+                        <span>店铺类型</span>
+                        <select>
+                                    <option>请选择</option>
+                                    <option>123232</option>
+                                    <option>232323</option>
+                                    <option>3232323</option>
+                                    <option>4233232321</option>
+                                </select>
+                        <input type="text" placeholder="请输入活动名称" class="checkAt">
+                        <input type="button" class="buttonAt">
+                    </div>
+                    <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+                        <ul class="layui-tab-title">
+                            <li class="layui-this">全部</li>
+                            <li>待支付</li>
+                            <li>待审核</li>
+                            <li>进行中</li>
+                            <li>已结束</li>
+                            <li>已驳回</li>
+                            <li>已发完</li>
+                        </ul>
+                        <div class="layui-tab-content" style="height: 100px;">
+                            <div class="layui-tab-item layui-show">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-tab-item">
+                                <div class="clearfix right_g">
+                                    <div class="right_contant table-style">
+                                        <table width="829" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动名称</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>开始时间</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动进度</span>
+                                                    </td>
+                                                    <td width="166" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>活动操作</span>
+                                                    </td>
+                                                    <td width="165" height="33" valign="middle" bgcolor="#f5f5f5" style="text-align: center;">
+                                                        <span>用户操作</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100px"></div>
+    <div class="section footer">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>© 2018 <a href="http://hsrj.co/">折多多</a> | <a href="hsrj2.3.0.pdf" target="_blank" rel="nofollow">折多多APP使用攻略</a></p>
+                    <p>© 2018 <a href="http://hsrj.co/">折多多</a> | <a href="hsrj2.3.0.pdf" target="_blank" rel="nofollow">折多多APP使用攻略</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    start();
+
+    function start() {
+        layui.use('element', function() {
+            var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+            //监听导航点击
+            element.on('nav(demo)', function(elem) {
+                //console.log(elem)
+                layer.msg(elem.text());
+            });
+        });
+    }
+
+    $(".layui-tab").click(function() {
+        layui.use('element', function() {
+            var $ = layui.jquery,
+                element = layui.element; //Tab的切换功能，切换事件监听等，需要依赖element模块
+        });
+    })
+</script>
+
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">

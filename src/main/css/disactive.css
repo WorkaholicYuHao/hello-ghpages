@@ -1,0 +1,80 @@
+.right_person {
+    width: 846px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: #f4f5f9;
+}
+
+.Sj-person {
+    width: 1020px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    border: none;
+    background-color: #f4f5f9;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+    width: 822px;
+    background-color: white;
+    padding: 20px 13px;
+}
+
+.title select {
+    margin-right: 6px;
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    margin-left: 8px;
+}
+
+.checkAt {
+    width: 353px !important;
+    height: 26px;
+    line-height: 26px;
+    color: #797979;
+    padding-left: 3px;
+    font-size: 12px;
+    margin: 0 50px;
+}
+
+.table-style table tr {
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    background: #f9f9f9;
+    display: block;
+}
+
+input.buttonAt {
+    background: url(/src/main/images/se.gif) no-repeat scroll left center transparent;
+    border: 0px none;
+    cursor: pointer;
+    height: 28px;
+    line-height: 28px;
+    width: 99px;
+    outline: none;
+    vertical-align: middle;
+    position: relative;
+    margin-left: -155px;
+}
+
+.clearfix.right_g strong {
+    font-weight: normal;
+    color: #666;
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+body {
+    background-color: #f4f5f9;
+}
+
+.disactive {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+}

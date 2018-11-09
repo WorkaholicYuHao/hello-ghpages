@@ -1,0 +1,128 @@
+.p_title {
+    border-bottom: 1px dashed #98b7d8;
+    position: relative;
+    height: 25px;
+    font-weight: 700;
+    color: #555;
+}
+
+font {
+    font-size: 12px;
+}
+
+.moneyTo {
+    background: #eef7fe;
+    border: 1px solid #e5ecf2;
+    padding: 30px 10px 7px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.moneyTo p {
+    height: 35px;
+    padding-left: 10px;
+    line-height: 16px;
+}
+
+.process {
+    background: #eef7fe;
+    border: 1px solid #e5ecf2;
+    padding: 30px 10px 7px;
+    overflow: hidden;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+p.p_user {
+    height: 35px;
+    padding-left: 10px;
+    line-height: 16px;
+    color: #898989;
+}
+
+p.p_tradeNum {
+    height: 35px;
+    padding-left: 10px;
+    line-height: 16px;
+}
+
+input.input_num {
+    border: 1px solid #D0D2D4;
+    width: 150px;
+    margin: 0 2px 0 3px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0px 6px;
+    color: #F60;
+    background-color: #ffe7e7;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input.input_money {
+    border: 1px solid #D0D2D4;
+    width: 150px;
+    margin: 0 2px 0 3px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0px 6px;
+    color: #F60;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button.btn_sub {
+    width: 70px;
+    height: 34px;
+    cursor: pointer !important;
+    border: none;
+    background: #f25f55;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin: 0 2px 0 50px;
+}
+
+.pay_png {
+    margin-top: 20px;
+}
+
+.pay_png img {
+    width: 768px;
+}
+
+.cuService {
+    margin-top: 20px;
+}
+
+a.serve_qq {
+    margin-left: 5px;
+}
+
+.record_title {
+    border: 1px solid #e1e1e1;
+    padding-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    background-color: #fafafa;
+    height: 40px;
+}
+
+.record_title ul li {
+    float: left;
+    margin: 0 69px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.recharge_content {
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+body{
+    background-color: #f4f5f9;
+}

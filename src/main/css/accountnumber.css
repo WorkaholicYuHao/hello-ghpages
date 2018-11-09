@@ -1,0 +1,162 @@
+.accountNum {
+    background-color: white;
+    min-height: 800px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1)
+}
+
+.accountNumTitle {
+    color: #3c3d45;
+    font-size: 12px;
+    padding-left: 23px;
+    padding-top: 12px;
+    line-height: 30px;
+    border-bottom: 2px solid #d82c2c;
+    height: 45px;
+}
+
+.accountNumTitle strong {
+    color: #3c3d45;
+    font-size: 16px;
+}
+
+.accountNumTitle button {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #f25f55;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: none;
+}
+
+.accountNumhead {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.accountNumContent {
+    padding-top: 23px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.accountNumhead span {
+    display: inline-block;
+}
+
+.userMsg {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.payNum {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+
+.payName {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+
+.payPhone {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+
+.payCapta {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+
+.payNum input {
+    width: 235px;
+    height: 24px;
+    border: 1px solid #7f9fb8;
+    line-height: 24px;
+    padding-left: 3px;
+    color: #999999;
+    font-size: 12px;
+    margin: 0px 4px;
+}
+
+.payName input {
+    width: 235px;
+    height: 24px;
+    border: 1px solid #7f9fb8;
+    line-height: 24px;
+    padding-left: 3px;
+    color: #999999;
+    font-size: 12px;
+    margin: 0px 4px;
+}
+
+.phoneNum {
+    color: #999999;
+    font-family: Tahoma;
+}
+
+.cp {
+    color: white;
+    background: #7CAE23;
+    width: 120px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 156px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payCapta input {
+    width: 235px;
+    height: 24px;
+    border: 1px solid #7f9fb8;
+    line-height: 24px;
+    padding-left: 3px;
+    color: #999999;
+    font-size: 12px;
+    margin: 0px 4px;
+}
+
+.sub {
+    display: block;
+    width: 80px;
+    height: 26px;
+    background: #f25f55;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    margin: 0 157px;
+}
+
+.payPhone font {
+    margin-left: 42px;
+}
+
+.payNum font {
+    margin-left: 26px;
+}
+
+.payName font {
+    margin-left: 26px;
+}
+
+body{
+    background-color: #f4f5f9;
+}

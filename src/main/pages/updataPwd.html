@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>折多多</title>
+    <meta name="Keywords" content="折多多,折多多官方app下载,折多多APP">
+    <meta name="Description" content="折多多官方APP：3000多万人都在用的网购省钱工具。消费有收益，创业大平台，折多多邀请码:15515500039，注册自动升级超级会员，快来加入到折多多大家庭吧！">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/src/main/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/main/css/owl.carousel.css">
+    <link rel="stylesheet" href="/src/main/css/main.css">
+    <link rel="stylesheet" href="/src/main/css/responsive.css">
+    <link rel="stylesheet" href="/src/main/css/updataPwd.css">
+    <link rel="stylesheet" href="/src/main/layui/css/layui.css">
+    <script type="text/javascript" src="http://validform.rjboy.cn/wp-content/themes/validform/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="http://validform.rjboy.cn/Validform/v5.1/Validform_v5.1_min.js"></script>
+</head>
+
+<body>
+
+    <div class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" href="http://hsrj.co"><img src="http://p8zxgltyx.bkt.clouddn.com/images/logo.png" alt="折多多" title="折多多"></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a onclick="firstPage()" title="折多多">首页</a></li>
+                        <li><a onclick="toregister()">注册</a></li>
+                        <li><a onclick="tologin()">登陆</a></li>
+                        <!--
+<li><a href="#overview">花生日记是什么</a></li>
+<li><a href="#reg">如何注册</a></li>
+<li><a href="#features">APP功能介绍</a></li>
+<li><a href="#screens">用户权益</a></li>
+<li><a href="#download">官方APP下载</a></li>
+-->
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">菜单<span></span></a>
+            </div>
+
+        </header>
+
+        <div style="height: 160px"></div>
+
+        <div class="Sj-regist">
+            <div class="updataPwd-header">
+                <strong>
+                    修改密码
+                </strong>
+            </div>
+            <div class="updataPwd-content">
+                <div class="updataPwd_main">
+                    <div class="main_top">
+                        <div class="main_left">
+                            <label>
+                                <input class="main_input" name="upPwd" checked="checked" type="radio" id="loginPwd"
+                                    value="1">
+                                <div style="float: left;color: #999999;margin-left: 15px;margin-top: 30px;cursor: pointer !important;">
+                                    <strong style="font-size: 16px;line-height: 36px;margin-left: 8px;">修改登录密码</strong><br>
+                                    （您在登录折多多时的密码）
+                                </div>
+                            </label>
+                        </div>
+                        <div class="main_right">
+                            <label>
+                                <input class="main_input" type="radio" name="upPwd" value="3" id="payPwd">
+                                <div style="float: left;color: #999999;margin-left: 15px;margin-top: 30px;cursor: pointer !important;">
+                                    <strong style="font-size: 16px;line-height: 36px;margin-left: 8px;">修改支付密码</strong><br>
+                                    （您在提现时的密码）
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="main_bottom">
+                        <div class="main_tv" id="oldpwd">
+                            <span class="main_cs">输入旧密码：</span>
+                            <input id="oldpassword" name="" type="password" class="nat_ttv">
+                            <a href="/src/main/pages/forgotPwd.html" target="_parent">忘记密码？</a>
+                            <span class="mod_tsc" style="display: none">密码有误，请输入正确的旧密码</span>
+                        </div>
+                        <div class="main_tv" name="paw">
+                            <span class="main_cs">设置新密码：</span><input name="" id="newpwd" type="password" class="nat_ttv">
+                            <span class="main_tsc" style="display: none">密码格式不正确</span>
+                        </div>
+                        <div class="main_tv">
+                            <em>密码长度6-16位，请用数字、字母或下划线组合。</em>
+                        </div>
+                        <div class="main_tv" name="paw">
+                            <span class="main_cs">确认新密码：</span><input id="newpwd_1" name="" type="password" class="nat_ttv">
+                            <span class="main_tsc" style="display: none">两次输入的密码不一致</span>
+                        </div>
+                        <div class="main_pct">
+                            <a target="_parent" id="hrefsubmit" href="javascript:void(0);">提交</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 170px"></div>
+
+    <div class="section footer">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>© 2018 <a href="http://hsrj.co/">折多多</a> | <a href="hsrj2.3.0.pdf" target="_blank" rel="nofollow">折多多APP使用攻略</a></p>
+                    <p>© 2018 <a href="http://hsrj.co/">折多多</a> | <a href="hsrj2.3.0.pdf" target="_blank" rel="nofollow">折多多APP使用攻略</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/main/js/jquery.min.js"></script>
+    <script src="/src/main/layui/layui.js"></script>
+    <script src="/src/main/js/fancybox.pack.js"></script>
+    <script src="/src/main/js/carousel.min.js"></script>
+    <script src="/src/main/js/main.js"></script>
+    <script type="text/javascript">
+        var wdwidth = $(document).width()
+        if (wdwidth > 769) {
+            $(".address").hover(function() {
+                $(this).find("span").show()
+            }, function() {
+                $(this).find("span").hide()
+            });
+        }
+
+        start();
+
+        function toregister() {
+            window.location.href = "/src/main/pages/register.html";
+        }
+
+        function tologin() {
+            window.location.href = "/src/main/pages/login.html";
+        }
+
+        function firstPage() {
+            window.location.href = "/index.html";
+        }
+
+        function loging() {
+            window.location.href = "/src/main/pages/login.html";
+        }
+        // $("#myForm").Validform();
+
+        $(function() {
+            $("#loginPwd").click();
+        });
+
+        function start() {
+            layui.use(['carousel', 'form'], function() {
+                var carousel = layui.carousel,
+                    form = layui.form;
+                carousel.render({
+                    elem: '#test2',
+                    interval: 3000,
+                    anim: 'fade',
+                    height: '500px',
+                    width: '400px',
+                });
+            })
+            $("input[type='radio'][name='upPwd']").click(function() {
+                $(".main_top div").removeClass("isRed");
+                $(this).parent().parent().addClass("isRed");
+                $("#oldpwd").show();
+                if ($(this).val() == "2") {
+                    var pawd = $("#sk_pay_password").val();
+                    if (!pawd || pawd.length == 0) {
+                        $("#oldpwd").hide();
+                    }
+                }
+            });
+        }
+    </script>
+    <div style="display:none">
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?fc1d5ac52e73efd9cb047ecc503af83b";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </div>
+</body>
+
+</html>

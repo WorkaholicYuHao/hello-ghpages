@@ -1,0 +1,99 @@
+.Sj-regist {
+    width: 960px;
+    margin: 20px auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.forgotPwd-content {
+    border: 9px solid #f0f0f0;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+}
+
+.main_content{
+    width: 700px;
+    margin: 46px auto;
+}
+
+.main_input{
+    height: 30px;
+    line-height: 30px;
+    margin: 40px 0px;
+    margin-left: 210px;
+}
+
+.main_input span{
+    color: #666666;
+    float: left;
+}
+
+.main_input input{
+    width: 217px;
+    height: 28px;
+    padding-left: 3px;
+    float: left;
+    border: 1px solid #7f9db9;
+    margin-left: 5px;
+    color: #999;
+    line-height: 28px;
+    display: inline;
+}
+
+.main_top {
+    height: 118px;
+    margin-bottom: 30px;
+}
+
+.main_left {
+    float: left;
+    width: 340px;
+    height: 116px;
+    border: 1px solid #d4d4d4;
+}
+
+label, input, select {
+    vertical-align: middle;
+}
+
+.mains_input{
+    float: left !important;
+    margin-top: 50px !important;
+    margin-left: 40px !important;
+}
+
+.main_right {
+    float: left;
+    width: 340px;
+    height: 116px;
+    border: 1px solid #d4d4d4;
+    margin-left: 15px;
+}
+
+.isRed{
+    border: 1px solid #f57777;
+    background: #fff5f5;
+}
+
+.main_pct {
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    width: 15%;
+}
+
+.main_pct a {
+    display: block;
+    width: 134.5px;
+    height: 34px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    font-weight: bold;
+    background: #DB1D1D;
+    color: white;
+    border: 1px solid #f25f55;
+    border-radius: 5px;
+}

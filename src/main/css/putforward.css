@@ -1,0 +1,179 @@
+.warning {
+    color: #ce4f1e;
+    font-size: 12px;
+    line-height: 24px;
+    width: 720px;
+    height: 80px;
+    border: 1px solid #f0c5b4;
+    background: #fffef0;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.present_user {
+    line-height: 35px;
+    display: inline-block;
+    margin: 5px 0px;
+    width: 700px;
+}
+
+.present {
+    padding-top: 23px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.present_money {
+    line-height: 35px;
+    display: inline-block;
+    margin: 5px 0px;
+    width: 700px;
+}
+
+.present_to {
+    line-height: 35px;
+    display: inline-block;
+    margin: 5px 0px;
+    width: 700px;
+}
+
+.present_toMoney {
+    line-height: 35px;
+    display: inline-block;
+    margin: 5px 0px;
+    width: 700px;
+}
+
+.present_pwd {
+    line-height: 35px;
+    display: inline-block;
+    margin: 5px 0px;
+    width: 700px;
+}
+
+.present_toMoney input {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 4px;
+    border: 1px solid #7f9db9;
+    color: #000000;
+    font-size: 12px;
+    display: inline;
+    padding-left: 3px;
+}
+
+.present_pwd input {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 4px;
+    border: 1px solid #7f9db9;
+    color: #000000;
+    font-size: 12px;
+    display: inline;
+    padding-left: 3px;
+}
+
+.present button {
+    width: 150px;
+    height: 30px;
+    display: block;
+    cursor: pointer !important;
+    border: none;
+    background: #f25f55;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.present p {
+    margin: 10px 0;
+}
+
+p.bill {
+    padding-left: 10px;
+    float: right;
+    width: 630px;
+    line-height: 40px;
+    display: none;
+    height: 40px;
+}
+
+select {
+    border: 1px solid #7f9db9;
+    color: #000000;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    width: 135px;
+    margin-right: 16px;
+}
+
+.chioce input {
+    height: 25px;
+    color: rgb(170, 170, 170);
+    width: 180px;
+    border: 1px solid #cdcdcd;
+    padding-left: 5px;
+}
+
+.chioce button {
+    border: 1px solid #cdcdcd;
+    color: #666;
+    cursor: pointer;
+    height: 27px;
+    left: -4px;
+    position: relative;
+    width: 45px;
+    top: 1px;
+}
+
+.chioce {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e9e5e3;
+    background: #fafafa;
+    padding: 12px;
+}
+
+p.notices {
+    color: #f25f55;
+    padding-top: 15px;
+}
+
+.chioce_title {
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+    padding-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    background-color: #fafafa;
+    height: 40px
+}
+
+.chioce_title ul li {
+    float: left;
+    margin: 0 54px;
+    height: 40px;
+    line-height: 40px;
+}
+
+p.bill span {
+    color: #7cae23;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+p.bill strong {
+    color: #f03c3f;
+    font-size: 14px;
+}
+
+body{
+    background-color: #f4f5f9;
+}

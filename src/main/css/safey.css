@@ -1,0 +1,71 @@
+.Sj-regist {
+    width: 1070px;
+    margin: 20px auto;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.reg-header {
+    border-bottom: 2px solid #dadada;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.safe_center {
+    border: 9px solid #f0f0f0;
+    margin-bottom: 20px;
+    min-height: 132px;
+}
+
+.safe_ce {
+    margin-left: 155px;
+    margin-top: 35px;
+}
+
+.safe_left {
+    float: left;
+    margin-right: 30px;
+    display: inline;
+    width: 120px;
+    text-align: center;
+}
+
+.account_center{
+    float: left;
+    width: 410px;
+    line-height: 24px;
+    color: #999999;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.safe_right {
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.safe_right a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    background: #f03c3f;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+
+.safe-content {
+    padding: 40px 0;
+}
+
+.safe-header {
+    border-bottom: 2px solid #dadada;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}

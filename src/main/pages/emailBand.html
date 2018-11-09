@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>折多多</title>
+    <meta name="Keywords" content="折多多,折多多官方app下载,折多多APP">
+    <meta name="Description" content="折多多官方APP：3000多万人都在用的网购省钱工具。消费有收益，创业大平台，折多多邀请码:15515500039，注册自动升级超级会员，快来加入到折多多大家庭吧！">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/src/main/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/main/css/owl.carousel.css">
+    <link rel="stylesheet" href="/src/main/css/main.css">
+    <link rel="stylesheet" href="/src/main/css/responsive.css">
+    <link rel="stylesheet" href="/src/main/css/emailBand.css">
+    <link rel="stylesheet" href="/src/main/layui/css/layui.css">
+    <script type="text/javascript" src="http://validform.rjboy.cn/wp-content/themes/validform/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="http://validform.rjboy.cn/Validform/v5.1/Validform_v5.1_min.js"></script>
+</head>
+
+<body>
+
+    <div class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix"><a class="logo" href="http://hsrj.co"><img src="http://p8zxgltyx.bkt.clouddn.com/images/logo.png"
+                        alt="折多多" title="折多多"></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a onclick="firstPage()" title="折多多">首页</a></li>
+                        <li><a onclick="toregister()">注册</a></li>
+                        <li><a onclick="tologin()">登陆</a></li>
+                        <!--
+<li><a href="#overview">花生日记是什么</a></li>
+<li><a href="#reg">如何注册</a></li>
+<li><a href="#features">APP功能介绍</a></li>
+<li><a href="#screens">用户权益</a></li>
+<li><a href="#download">官方APP下载</a></li>
+-->
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">菜单<span></span></a>
+            </div>
+
+        </header>
+
+        <div style="height: 160px"></div>
+
+        <div class="Sj-regist">
+            <div class="emailBand-header">
+                <strong>
+                    绑定邮箱
+                </strong>
+            </div>
+            <div class="emailBand-content">
+                <div style="width:820px;height:26px;margin:60px auto 40px auto;border-bottom:1px solid #ddd;">
+                    <span style="float: left;margin-left: 165px;display: block;width: 130px;height: 25px;color: #666;font-size: 14px;text-align: center">
+                        <i style="width: 16px;height: 16px;background: #ccc;border-radius: 16px;color: #fff;font-size: 12px;text-align: center;line-height: 16px;">1</i>
+                        验证邮箱
+                    </span>
+                    <span style="float: left; margin-left: 50px; display: block; width: 130px; height: 25px; border-bottom: 2px solid #f25f55; color: #f25f55; font-size: 14px; text-align: center">
+                        <i style="width: 16px;height: 16px;background: #f25f55;border-radius: 16px;color: #fff;font-size: 12px;text-align: center;line-height: 16px;">2</i>
+                        填写新邮箱
+                    </span>
+                    <span style="float: left;margin-left: 50px;display: block;width: 130px;height: 25px;color: #666;font-size: 14px;text-align: center">
+                        <i style="width: 16px;height: 16px;background: #ccc;border-radius: 16px;color: #fff;font-size: 12px;text-align: center;line-height: 16px;">3</i>
+                        完成
+                    </span>
+                </div>
+                <div class="main_content">
+                    <div class="main_input">
+                        <span style="display: block;width: 320px;text-align: right;float: left;line-height: 36px;">填写邮箱地址：</span>
+                        <input name="to_address" id="to_address" type="text">
+                    </div>
+                    <div class="main_input" style="margin-top: 20px;">
+                        <span style="display: block;width: 320px;text-align: right;float: left;line-height: 36px;">验证码：</span>
+                        <input name="keys" id="keys" type="text">
+                        <button class="send_button">
+                            发送邮箱验证码
+                        </button>
+                    </div>
+                    <a href="javascript:void(0)" id="btnsumbit" class="subBtn" onclick="save()" target="_parent">下一步</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 170px"></div>
+
+    <div class="section footer">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="col-md-12">
+                    <p>© 2018 <a href="http://hsrj.co/">折多多</a> | <a href="hsrj2.3.0.pdf" target="_blank" rel="nofollow">折多多APP使用攻略</a></p>
+                    <p>© 2018 <a href="http://hsrj.co/">折多多</a> | <a href="hsrj2.3.0.pdf" target="_blank" rel="nofollow">折多多APP使用攻略</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/src/main/js/jquery.min.js"></script>
+    <script src="/src/main/layui/layui.js"></script>
+    <script src="/src/main/js/fancybox.pack.js"></script>
+    <script src="/src/main/js/carousel.min.js"></script>
+    <script src="/src/main/js/main.js"></script>
+    <script type="text/javascript">
+        var wdwidth = $(document).width()
+        if (wdwidth > 769) {
+            $(".address").hover(function () {
+                $(this).find("span").show()
+            }, function () {
+                $(this).find("span").hide()
+            });
+        }
+
+        start();
+
+        function toregister() {
+            window.location.href = "/src/main/pages/register.html";
+        }
+
+        function tologin() {
+            window.location.href = "/src/main/pages/login.html";
+        }
+
+        function firstPage() {
+            window.location.href = "/index.html";
+        }
+
+        function loging() {
+            window.location.href = "/src/main/pages/login.html";
+        }
+        // $("#myForm").Validform();
+
+        $(function () {
+            $("#loginPwd").click();
+        });
+
+        function start() {
+            layui.use(['carousel', 'form'], function () {
+                var carousel = layui.carousel,
+                    form = layui.form;
+                carousel.render({
+                    elem: '#test2',
+                    interval: 3000,
+                    anim: 'fade',
+                    height: '500px',
+                    width: '400px',
+                });
+            })
+            $("input[type='radio'][name='upPwd']").click(function () {
+                $(".main_top div").removeClass("isRed");
+                $(this).parent().parent().addClass("isRed");
+                $("#oldpwd").show();
+                if ($(this).val() == "2") {
+                    var pawd = $("#sk_pay_password").val();
+                    if (!pawd || pawd.length == 0) {
+                        $("#oldpwd").hide();
+                    }
+                }
+            });
+        }
+    </script>
+    <div style="display:none">
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?fc1d5ac52e73efd9cb047ecc503af83b";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+.platformTypeTitle {
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    padding: 12px 17px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.platformTypeName {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+    padding: 12px 0;
+}
+
+.platformTypeName ul li {
+    float: left;
+    margin-left: 30px;
+    cursor: pointer
+}
+
+.activityType {
+    background-color: white;
+    padding-bottom: 1px;
+}
+
+.z_activityType {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+}
+
+.rp {
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+    line-height: 55px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+h2.title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+    width: 826px;
+    padding-left: 20px;
+}
+
+.activityTypeTitle {
+    padding: 15px 0 15px 19px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+.layui-tab-item.layui-show h4 {
+    line-height: 26px;
+    height: 26px;
+    color: #666;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.layui-tab-item.layui-show ul {
+    height: 159px;
+    border-bottom: 1px dashed #ddd;
+    line-height: 26px;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.layui-tab-item.layui-show ul li {
+    float: left;
+}
+
+li.notice {
+    width: 200px;
+}
+
+.layui-tab-item.layui-show div {
+    line-height: 26px;
+    color: #999;
+}
+
+.layui-tab-item.layui-show span {
+    display: inline-block;
+    width: 536px;
+    vertical-align: top;
+}
+
+li.red {
+    margin: 0 42px;
+}
+
+em {
+    color: red;
+}
+
+li.red p {
+    color: red;
+}
+
+.information {
+    padding-bottom: 20px;
+    border: 1px solid #dddddd;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.informationTitle {
+    padding: 15px 0 15px 19px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+.shopName {
+    position: static;
+    margin-left: 73px;
+    padding: 12px 0;
+}
+
+.shopName span {
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.shopName div {
+    display: inline-block;
+}
+
+.titleActivity {
+    position: static;
+    margin-left: 73px;
+    padding: 12px 0;
+}
+
+.titleActivity span {
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.titleActivity div {
+    display: inline-block;
+}
+
+.babyLink {
+    position: static;
+    margin-left: 73px;
+    padding: 12px 0;
+}
+
+.babyLink span {
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.babyLink div {
+    display: inline-block;
+}
+
+.lastButton {
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid #F16154;
+    padding: 0 10px;
+    background-color: #F16154;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+.right_contant {
+    color: #9f9f9f;
+    font-size: 12px;
+    display: inline-block;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+}
+
+a.bd {
+    color: #4e87c8;
+    line-height: 28px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.titleActivity input {
+    width: 560px;
+    height: 30px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+    text-indent: 1em;
+}
+
+.babyLink input {
+    width: 560px;
+    height: 30px;
+    border: 1px solid #ddd;
+    line-height: 30px;
+    text-indent: 1em;
+}
+
+body {
+    background-color: #f4f5f9;
+}
+
+.adversting {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+}
+
+#ttbb.activings {
+    color: #ff6900;
+}
+
+#jjdd.activied {
+    color: #ef1a10;
+}

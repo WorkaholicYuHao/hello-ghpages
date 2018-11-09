@@ -1,0 +1,242 @@
+.Sj-person {
+    width: 1020px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    border: none;
+    background-color: #f4f5f9;
+}
+
+.first_person {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    background-color: white;
+}
+
+.first_person_a {
+    color: red;
+    cursor: pointer;
+}
+
+.left-person {
+    width: 140px;
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.right_person {
+    width: 846px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    min-height: 800px;
+}
+
+.firstFloor {
+    padding: 0px 10px;
+    border: 1px solid #e7e8eb;
+    background-color: white
+}
+
+.peopleMsg {
+    padding: 13px 10px 10px 10px;
+}
+
+.vip_left button {
+    width: 80px;
+    height: 30px;
+    margin: 20px 10px;
+    background-color: #f25f55;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vip_left button:hover {
+    background-color: #c72a2a;
+}
+
+.vip {
+    width: 280px;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.vip_left {
+    float: left;
+}
+
+.vip_left p {
+    width: 183px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.balance {
+    width: 280px;
+    display: inline-block;
+    border: 1px solid #e7e8eb;
+    background-color: #eee;
+    position: absolute;
+    margin-left: 10px;
+    height: 138px;
+}
+
+.balance_up p {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 270px;
+}
+
+.balance_down button {
+    width: 80px;
+    height: 30px;
+    margin: 20px 10px;
+    background-color: #f25f55;
+    color: #eee;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.balance_down button:hover {
+    background-color: #c72a2a;
+}
+
+.balance_down p {
+    width: 100px;
+    display: inline-block;
+}
+
+.personMsg {
+    width: 163px;
+    float: left;
+    margin-right: 20px;
+}
+
+.personMsg p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.personMsg_img {
+    border: 1px solid red;
+    margin: auto;
+    width: 86px;
+    height: 86px;
+}
+
+.secondFloor {
+    height: 68px;
+    margin: 20px 0;
+}
+
+ul.businessList {
+}
+
+ul.businessList li {
+    border-radius: 30px;
+    float: left;
+}
+
+ul.businessList li a {
+    display: block;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 68px;
+    cursor: pointer;
+    transition: margin-left 0.5s
+}
+
+ul.businessList li a:hover {
+    color: red;
+    margin-left: 5px
+}
+
+ul.businessList img {
+    margin-right: 14px;
+}
+
+img.taobaoImg {
+    float: left;
+}
+
+img.jingD {
+    float: left;
+}
+
+.taobao ul {
+    width:733px ;
+    height: 85px;
+    float: right;
+}
+
+.jingdong ul {
+    width: 733px;
+    height: 85px;
+    float: right;
+}
+
+.taobao {
+    width: 850px;
+    height: 85px;
+}
+
+.taobao ul li {
+    float: left;
+}
+
+.jingdong ul li {
+    float: left;
+}
+
+.jingdong {
+    width: 850px;
+    height: 85px;
+    margin-top: 19px;
+}
+
+.taobao ul li a {
+    display: block;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 85px;
+    cursor: pointer;
+    transition: margin-top 0.5s
+}
+
+.taobao ul li a:hover {
+    color: red;
+    margin-top: 5px
+}
+
+.jingdong ul li a {
+    display: block;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 85px;
+    cursor: pointer;
+    transition: margin-top 0.5s
+}
+
+.jingdong ul li a:hover {
+    color: red;
+    margin-top: 5px
+}
+
+.layui-nav-more {
+    display: none;
+}
+
+body{
+    background-color: #f4f5f9;
+}
