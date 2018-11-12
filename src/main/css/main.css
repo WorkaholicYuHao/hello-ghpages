@@ -2,7 +2,7 @@
 	Typography
 -------------------------------------------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700);
 p {
     font-size: 14px;
     line-height: 22.4px;
@@ -157,6 +157,18 @@ ul li {
     width: 100%;
     z-index: 999;
     background-color: black;
+}
+
+.footer {
+    width: 100%;
+    min-width: 1120px;
+    text-align: center;
+    background-color: #201f22;
+}
+
+.banner {
+    min-height: 750px;
+    min-width: 1120px;
 }
 
 #header .header-content {
@@ -379,10 +391,6 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
-
-.banner {
-    min-height: 750px;
-}
 
 .banner-text {
     padding-top: 30%;
@@ -721,10 +729,6 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Footer
 -------------------------------------------------------------------------------*/
-.footer {
-    text-align: center;
-    background-color: #201f22;
-}
 .footer p {
     font-size: 14px;
     color: #636363;

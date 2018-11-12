@@ -1,11 +1,5 @@
 .Sj-person {
-    width: 1020px;
-    height: auto;
-    margin: 0 auto;
-    clear: both;
-    display: block;
-    border: none;
-    background-color: #f4f5f9;
+    width: 100%
 }
 
 .first_person {
@@ -137,8 +131,7 @@
     margin: 20px 0;
 }
 
-ul.businessList {
-}
+ul.businessList {}
 
 ul.businessList li {
     border-radius: 30px;
@@ -173,7 +166,7 @@ img.jingD {
 }
 
 .taobao ul {
-    width:733px ;
+    width: 733px;
     height: 85px;
     float: right;
 }
@@ -237,6 +230,6 @@ img.jingD {
     display: none;
 }
 
-body{
+body {
     background-color: #f4f5f9;
 }
