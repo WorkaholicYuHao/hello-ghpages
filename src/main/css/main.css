@@ -160,15 +160,12 @@ ul li {
 }
 
 .footer {
-    width: 100%;
-    min-width: 1120px;
     text-align: center;
     background-color: #201f22;
 }
 
 .banner {
     min-height: 750px;
-    min-width: 1120px;
 }
 
 #header .header-content {
