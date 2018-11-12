@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700);
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700);
 p {
     font-size: 14px;
     line-height: 22.4px;
@@ -13,7 +13,6 @@ h1 {
     font-size: 35px;
     color: #2d3033;
     font-weight: 100;
-
 }
 
 h2 {
@@ -73,9 +72,11 @@ h5 {
     overflow: hidden;
 }
 
+
 /* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
+
 a {
     color: #e84545;
 }
@@ -146,9 +147,11 @@ ul li {
     margin: auto;
 }
 
+
 /* ------------------------------------------------------------------------------
 	Header
 -------------------------------------------------------------------------------*/
+
 #header {
     position: fixed;
     width: 100%;
@@ -372,9 +375,11 @@ ul li {
     transform: translateY(0) rotate(-45deg);
 }
 
+
 /* ------------------------------------------------------------------------------
 	Banner
 -------------------------------------------------------------------------------*/
+
 .banner {
     min-height: 750px;
 }
@@ -396,13 +401,13 @@ ul li {
     font-size: 33px;
     line-height: 48px;
 }
-}
 
+
+}
 .banner-text span {
     font-weight: 600;
     font-size: 38px;
 }
-
 .banner-text p {
     color: #fff;
     font-size: 18px;
@@ -410,12 +415,10 @@ ul li {
     line-height: 24px;
     margin-bottom: 7%;
 }
-
 .banner-img {
     bottom: -142px;
     position: relative;
 }
-
 .banner-btn a {
     margin-right: 15px;
     /*display:inline-block*/
@@ -428,7 +431,6 @@ ul li {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
 .overview-content p {
     font-size: 13px;
     font-weight: 300;
@@ -436,13 +438,11 @@ ul li {
     letter-spacing: 1px;
     padding-right: 12%;
 }
-
 .overview-video {
     margin: auto;
     margin-bottom: 7%;
     z-index: 1;
 }
-
 .overview-video iframe {
     width: 800px;
     height: 450px;
@@ -454,30 +454,24 @@ ul li {
 .features1 {
     background-color: #FFF;
 }
-
 .left {
     text-align: right;
     padding-right: 5%;
 }
-
 .middle {
     padding-left: 3.5%;
 }
-
 .right {
     padding-left: 5%;
 }
-
 .features1-content {
     margin-top: 20%;
 }
-
 .features1-content h4 {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-top: 20px;
 }
-
 .features1-content p {
     font-size: 13px;
     font-weight: 300;
@@ -489,19 +483,15 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Feature 2 & 3
 -------------------------------------------------------------------------------*/
-
 .features2 {
     padding-bottom: 0;
 }
-
 .features2-content {
     margin-top: 10%;
 }
-
 .features2-content img {
     bottom: -100px;
 }
-
 .features2-content p {
     font-size: 14px;
     font-weight: 300;
@@ -509,37 +499,30 @@ ul li {
     letter-spacing: 1px;
     margin-top: 7%;
 }
-
 .features2-content ul {
     margin-top: 7%;
     line-height: 36px;
     font-weight: 300;
 }
-
 .features2-content h2 {
     margin-top: 0;
     letter-spacing: 2px;
     line-height: 39px;
 }
-
 .container span {
     font-size: 30px;
 }
-
 .features3 {
     background-color: #f2f2f2;
     padding-bottom: 0;
 }
-
 .features3 img {
     bottom: -100px;
     padding-left: 15%;
 }
-
 .banner-btn {
     margin-bottom: 3%;
 }
-
 .banner-btn img {
     padding: 3%;
 }
@@ -547,7 +530,6 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Owl Coursol
 -------------------------------------------------------------------------------*/
-
 #owl-demo .item {
     text-align: center;
 }
@@ -555,7 +537,6 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Subscribe
 -------------------------------------------------------------------------------*/
-
 .overlay {
     background-color: rgba(60, 57, 162, 0.9);
     height: 100%;
@@ -565,7 +546,6 @@ ul li {
     top: 0;
     width: 100%;
 }
-
 .subscribe {
     width: 100%;
     background-image: url('http://p8zxgltyx.bkt.clouddn.com/images/parallax-bg.jpg');
@@ -578,17 +558,14 @@ ul li {
     background-size: cover;
     position: relative;
 }
-
 .subscribe h2 {
     margin-top: 0;
     color: #fff;
     letter-spacing: 2px;
 }
-
 .subscribe span {
     font-weight: 600;
 }
-
 .subscribe h3 {
     margin-bottom: 30px;
     font-size: 24px;
@@ -596,7 +573,6 @@ ul li {
     color: #fff;
     letter-spacing: 1px;
 }
-
 .subscribe p {
     margin: 5% 10% 7% 10%;
     color: #fff;
@@ -605,11 +581,9 @@ ul li {
     font-weight: 300;
     letter-spacing: 1px;
 }
-
 .subscribe-form {
     margin-top: 45px;
 }
-
 .subscribe-form input[type=text] {
     width: 75%;
     height: 60px;
@@ -629,11 +603,9 @@ ul li {
     font-weight: 300;
     float: left;
 }
-
 .subscribe-form input:focus {
     outline: 0;
 }
-
 .subscribe-form input[type=submit] {
     width: 25%;
     height: 60px;
@@ -656,32 +628,27 @@ ul li {
     -ms-transition: all 0.125s ease-in-out 0s;
     float: right;
 }
-
 .subscribe-form input[type=submit]:hover {
     background-color: #7ebb12;
     border: 1px solid #7ebb12;
     color: #fff;
 }
-
 .error_message {
     color: #fc6e51;
     padding-bottom: 15px;
     font-size: 13px;
     line-height: 30px;
 }
-
 #success_page {
     color: #9ce726;
     padding-bottom: 10px;
     font-size: 12px;
 }
-
 #success_page h3 {
     font-size: 17px;
     font-weight: 400px;
     color: #4ab217;
 }
-
 #success_page p {
     font-size: 12px;
     font-weight: 400px;
@@ -695,7 +662,6 @@ ul li {
     padding-left: 50px;
     padding-right: 50px;
 }
-
 .conForm input {
     background: #fff;
     color: #797979;
@@ -708,11 +674,9 @@ ul li {
     border: #dedede 1px solid;
     font-size: 15px;
 }
-
 .conForm input.noMarr {
     margin-right: 0px;
 }
-
 .conForm textarea {
     background: #fff;
     color: #797979;
@@ -725,7 +689,6 @@ ul li {
     font-size: 15px;
     border: #dedede 1px solid;
 }
-
 .conForm .submitBnt {
     background: #a0ce4e;
     color: #fff;
@@ -740,18 +703,15 @@ ul li {
     display: inline-block;
     text-transform: uppercase;
 }
-
 .conForm .submitBnt:hover {
     background: #3d3d3d;
     color: #fff;
 }
-
 .error_message {
     color: #ff675f;
     font-weight: 500;
     padding-bottom: 15px;
 }
-
 #success_page h3 {
     color: #5ed07b;
     font-size: 17px;
@@ -765,30 +725,24 @@ ul li {
     text-align: center;
     background-color: #201f22;
 }
-
 .footer p {
     font-size: 14px;
     color: #636363;
 }
-
-.footer p > a {
+.footer p>a {
     font-size: 14px;
     color: #636363;
 }
-
 .footer a {
     font-size: 18px;
     color: #7f7f7f;
 }
-
 .footer a:hover {
     color: #e84545;
 }
-
 .footer .footer-share {
     margin-top: 0;
 }
-
 .footer .footer-share li {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
@@ -801,21 +755,17 @@ ul li {
     display: inline-block;
     float: none;
 }
-
 .footer .footer-share a {
     color: #fff;
 }
-
 .footer .fa-heart {
     color: #e84545;
     font-size: 11px;
     margin: 0 2px;
 }
-
 .wxkf {
     width: 120px;
 }
-
 @media (max-width: 767px) {
     .wxkf {
         width: 60px;
@@ -831,65 +781,52 @@ ul li {
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
-
 @media (max-width: 767px) {
     .pricing-table {
         margin-top: 20px;
     }
 }
-
 .pricing-table-header {
     position: relative;
     padding: 20px 15px;
 }
-
 .pricing-table-content {
     background-color: #fff;
     padding-left: 18px;
 }
-
 .pricing-table-footer {
     background-color: #fff;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
-
 .pricing-table-list {
     list-style: none;
     padding-left: 0;
 }
-
 .pricing-table-list li {
     padding: 12px 20px;
 }
-
 .pricing-table-list li:not(:first-child) {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 .pricing-table-list li i {
     margin-right: .5em;
     color: #10cfbd;
 }
-
-
 .pricing-table-title {
     font-size: 22px;
     font-weight: 600;
     text-transform: none;
     margin-bottom: 0;
 }
-
 @media (min-width: 768px) {
     .pricing-table-title {
         font-size: 32px;
     }
 }
-
 .section-content li {
     padding: 6px 0px;
 }
-
 .align-l {
     text-align: left !important;
 }

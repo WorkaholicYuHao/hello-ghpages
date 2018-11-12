@@ -17,6 +17,7 @@
          * @param  {Object} field Ԫ��
          * @return {Object}       ����left��top
          */
+
     function getPos(field, maxHeight) {
         var p = field.offset(),
             scrollBarPos = $(window).height() + $(document).scrollTop();
