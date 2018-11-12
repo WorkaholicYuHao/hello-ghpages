@@ -16,23 +16,28 @@
     *overflow: visible;
     outline: 0 none;
     background: #fafafa;
+    margin: 0 20px;
 }
+
 .QPUI-selectbox:hover {
     border: 1px solid #09E;
 }
+
 .QPUI-selectbox::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
-select[disabled] + .QPUI-selectbox,
-select[disabled] + .QPUI-selectbox:hover {
+
+select[disabled]+.QPUI-selectbox,
+select[disabled]+.QPUI-selectbox:hover {
     color: #ccc;
     border: 1px solid #B7B7B7;
     cursor: default;
     box-shadow: none;
     opacity: .7;
-    user-select:none
+    user-select: none
 }
+
 .QPUI-selectbox-inner {
     padding: 0 0 0 5px;
     margin-right: 15px;
@@ -41,8 +46,9 @@ select[disabled] + .QPUI-selectbox:hover {
     white-space: nowrap;
     text-overflow: ellipsis;
     *background: #fafafa;
-    *filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e5e5e5',GradientType=0 );
+    *filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e5e5e5', GradientType=0);
 }
+
 .QPUI-selectbox .QPUI-selectbox-icon {
     position: absolute;
     right: 4px;
@@ -55,15 +61,17 @@ select[disabled] + .QPUI-selectbox:hover {
     display: block;
     width: 0;
     height: 0;
-    overflow:hidden;
-    line-height:0;
+    overflow: hidden;
+    line-height: 0;
     font-size: 0;
 }
+
 .QPUI-selectbox-open .QPUI-selectbox-icon {
     margin-top: -3px;
     border-top: 0 none;
     border-bottom: 5px solid #A7A7A7;
 }
+
 .QPUI-selectbox-dropdown {
     position: relative;
     margin: 0;
@@ -88,6 +96,7 @@ select[disabled] + .QPUI-selectbox:hover {
     background: transparent;
     outline: 0 none;
 }
+
 .QPUI-selectbox-optgroup {
     cursor: default;
     color: #000;
@@ -95,17 +104,21 @@ select[disabled] + .QPUI-selectbox:hover {
     font-style: italic;
     font-size: 14px;
 }
+
 .QPUI-selectbox-option:hover {
     background: #eee;
 }
+
 .QPUI-selectbox-option:focus {
     outline: 0 none;
 }
+
 .QPUI-selectbox-dropdown .QPUI-selectbox-selected,
 .QPUI-selectbox-dropdown .QPUI-selectbox-selected:hover {
     background: #394D7E;
     color: #fff;
 }
+
 .QPUI-selectbox-dropdown .QPUI-selectbox-disabled,
 .QPUI-selectbox-dropdown .QPUI-selectbox-disabled:hover {
     color: #ccc;
@@ -118,6 +131,7 @@ select[disabled] + .QPUI-selectbox:hover {
 .QPUI-popup-top-right .QPUI-selectbox-dropdown {
     top: -2px;
 }
+
 .QPUI-popup-bottom .QPUI-selectbox-dropdown,
 .QPUI-popup-bottom-left .QPUI-selectbox-dropdown,
 .QPUI-popup-bottom-right .QPUI-selectbox-dropdown {
