@@ -56,113 +56,115 @@
 
         <div style="height: 200px"></div>
         <div class="Sj-person">
-            <div class="left-person">
-                <div class="first_person">
-                    <a class="first_person_a" href="/hello-ghpages/src/main/pages/person.html"> 个人中心首页</a>
-                </div>
-                <ul class="layui-nav layui-nav-tree" lay-filter="test">
-                    <li class="layui-nav-item ">
-                        <a href="javascript:;">精选试用管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/adversting.html">发布活动</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/activities.html">全部活动</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">折扣试用管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/introduce.html">模式介绍</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/discounts.html">发布活动</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/disactive.html">全部活动</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">我的账户</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/management.html">店铺管理</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/putforward.html">提现/账户明细</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/accountnumber.html">我的提现账号</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/safey.html">账户安全</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/recharge.html">账户充值</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">VIP通道</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/tovip.html">成为VIP</a></dd>
-                        </dl>
-                    </li>
-                </ul>
-            </div>
-            <div class="right_person">
-                <div class="firstFloor">
-                    <div class="peopleMsg">
-                        <div class="vip">
-                            <div class="vip_left">
-                                <p>商家类型:</p>
-                                <p>您还未成为VIP会员哦!</p>
-                                <button onclick="tobeVip()">成为VIP</button>
-                            </div>
-                            <div style="background-color: #e3e3e3; width: 80px;height: 100%;text-align: center;line-height: 100%;float: right;font-size: 14px;padding-top: 44px;color: #6c6c6c;">
-                                <a href=" " style="color: #666666" target="_black">
-                                    <span style="height: 20px;line-height: 20px">查看VIP</span><br>专属特权
-                                    <p style="margin-top:20px;background-color: #ababab;height: 22px;line-height: 20px;border-radius: 50%;width: 22px;margin:20px 30px;color:#ffffff">&gt;</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="balance">
-                            <div class="balance_up">
-                                <p>账户余额:<span>999999999.99元</span></p>
-                                <p>担保金额:<span>10000000000000$</span></p>
-                            </div>
-                            <div class="balance_down">
-                                <button onclick="toRecharge()">充值</button>
-                                <p><span style="margin-right: 5px;font-size: 10px;cursor: pointer;color: #24aff3;" onclick="toPutforward()">账户明细</span><span style="color: #24aff3;">|</span><span style="font-size: 10px;margin-left: 5px;
-                                    cursor: pointer;color: #24aff3;" onclick="toPutforward()">提现</span></p>
-                            </div>
-                        </div>
-                        <div class="personMsg">
-                            <div class="personMsg_img">
-
-                            </div>
-                            <p>天天交易所</p>
-                        </div>
+            <div class="person_total">
+                <div class="left-person">
+                    <div class="first_person">
+                        <a class="first_person_a" href="/hello-ghpages/src/main/pages/person.html"> 个人中心首页</a>
                     </div>
-                </div>
-
-                <div class="secondFloor">
-                    <ul class="businessList">
-                        <li style="width:24%;">
-                            <a href="/hello-ghpages/src/main/pages/adversting.html"><img src="/hello-ghpages/src/main/images/fb.png">发布活动</a>
+                    <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                        <li class="layui-nav-item ">
+                            <a href="javascript:;">精选试用管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/hello-ghpages/src/main/pages/adversting.html">发布活动</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/activities.html">全部活动</a></dd>
+                            </dl>
                         </li>
-                        <li style="width:24%;margin-left: 11px;">
-                            <a href="/hello-ghpages/src/main/pages/management.html"><img src="/hello-ghpages/src/main/images/bd.png">绑定店铺</a>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;">折扣试用管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/hello-ghpages/src/main/pages/introduce.html">模式介绍</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/discounts.html">发布活动</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/disactive.html">全部活动</a></dd>
+                            </dl>
                         </li>
-                        <li style="width:24%;margin-left: 11px;">
-                            <a><img src="/hello-ghpages/src/main/images/ll.png">折多多客户</a>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;">我的账户</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/hello-ghpages/src/main/pages/management.html">店铺管理</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/putforward.html">提现/账户明细</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/accountnumber.html">我的提现账号</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/safey.html">账户安全</a></dd>
+                                <dd><a href="/hello-ghpages/src/main/pages/recharge.html">账户充值</a></dd>
+                            </dl>
                         </li>
-                        <li style="width:24%;margin-left: 11px;">
-                            <a><img src="/hello-ghpages/src/main/images/dd.png">订单比对</a>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;">VIP通道</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/hello-ghpages/src/main/pages/tovip.html">成为VIP</a></dd>
+                            </dl>
                         </li>
                     </ul>
                 </div>
+                <div class="right_person">
+                    <div class="firstFloor">
+                        <div class="peopleMsg">
+                            <div class="vip">
+                                <div class="vip_left">
+                                    <p>商家类型:</p>
+                                    <p>您还未成为VIP会员哦!</p>
+                                    <button onclick="tobeVip()">成为VIP</button>
+                                </div>
+                                <div style="background-color: #e3e3e3; width: 80px;height: 100%;text-align: center;line-height: 100%;float: right;font-size: 14px;padding-top: 44px;color: #6c6c6c;">
+                                    <a href=" " style="color: #666666" target="_black">
+                                        <span style="height: 20px;line-height: 20px">查看VIP</span><br>专属特权
+                                        <p style="margin-top:20px;background-color: #ababab;height: 22px;line-height: 20px;border-radius: 50%;width: 22px;margin:20px 30px;color:#ffffff">&gt;</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="balance">
+                                <div class="balance_up">
+                                    <p>账户余额:<span>999999999.99元</span></p>
+                                    <p>担保金额:<span>10000000000000$</span></p>
+                                </div>
+                                <div class="balance_down">
+                                    <button onclick="toRecharge()">充值</button>
+                                    <p><span style="margin-right: 5px;font-size: 10px;cursor: pointer;color: #24aff3;" onclick="toPutforward()">账户明细</span><span style="color: #24aff3;">|</span><span style="font-size: 10px;margin-left: 5px;
+                                    cursor: pointer;color: #24aff3;" onclick="toPutforward()">提现</span></p>
+                                </div>
+                            </div>
+                            <div class="personMsg">
+                                <div class="personMsg_img">
 
-                <div class="thirdFloor">
-                    <div class="taobao">
-                        <img src="/hello-ghpages/src/main/images/tbrk.jpg" class="taobaoImg">
-                        <ul>
-                            <li style="width: 33%;"><a>待支付</a></li>
-                            <li style="width: 33%;margin-left: 8px;"><a>进行中</a></li>
-                            <li style="width: 31%;margin-left: 9px;"><a>订单对比</a></li>
+                                </div>
+                                <p>天天交易所</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="secondFloor">
+                        <ul class="businessList">
+                            <li style="width:24%;">
+                                <a href="/hello-ghpages/src/main/pages/adversting.html"><img src="/hello-ghpages/src/main/images/fb.png">发布活动</a>
+                            </li>
+                            <li style="width:24%;margin-left: 11px;">
+                                <a href="/hello-ghpages/src/main/pages/management.html"><img src="/hello-ghpages/src/main/images/bd.png">绑定店铺</a>
+                            </li>
+                            <li style="width:24%;margin-left: 11px;">
+                                <a><img src="/hello-ghpages/src/main/images/ll.png">折多多客户</a>
+                            </li>
+                            <li style="width:24%;margin-left: 11px;">
+                                <a><img src="/hello-ghpages/src/main/images/dd.png">订单比对</a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="jingdong">
-                        <img src="/hello-ghpages/src/main/images/jdrk%20.jpg" class="jingD">
-                        <ul>
-                            <li style="width: 33%;"><a>待支付</a></li>
-                            <li style="width: 33%;margin-left: 8px;"><a>进行中</a></li>
-                            <li style="width: 31%;margin-left: 9px;"><a>订单对比</a></li>
-                        </ul>
+
+                    <div class="thirdFloor">
+                        <div class="taobao">
+                            <img src="/hello-ghpages/src/main/images/tbrk.jpg" class="taobaoImg">
+                            <ul>
+                                <li style="width: 33%;"><a>待支付</a></li>
+                                <li style="width: 33%;margin-left: 8px;"><a>进行中</a></li>
+                                <li style="width: 31%;margin-left: 9px;"><a>订单对比</a></li>
+                            </ul>
+                        </div>
+                        <div class="jingdong">
+                            <img src="/hello-ghpages/src/main/images/jdrk%20.jpg" class="jingD">
+                            <ul>
+                                <li style="width: 33%;"><a>待支付</a></li>
+                                <li style="width: 33%;margin-left: 8px;"><a>进行中</a></li>
+                                <li style="width: 31%;margin-left: 9px;"><a>订单对比</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
