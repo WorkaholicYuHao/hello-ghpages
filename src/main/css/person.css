@@ -1,5 +1,5 @@
 .Sj-person {
-    width: 100%
+    width: 100%;
 }
 
 .first_person {
@@ -28,7 +28,6 @@
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    min-height: 800px;
 }
 
 .firstFloor {
@@ -180,6 +179,12 @@ img.jingD {
 .taobao {
     width: 850px;
     height: 85px;
+}
+
+.total-total {
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .taobao ul li {
