@@ -767,11 +767,12 @@ ul li {
 .wxkf {
     width: 120px;
 }
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .wxkf {
         width: 60px;
     }
-}
+} */
 
 /**
  * pricing
@@ -782,11 +783,12 @@ ul li {
     -webkit-border-radius: 4px;
     border-radius: 4px;
 }
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .pricing-table {
         margin-top: 20px;
     }
-}
+} */
 .pricing-table-header {
     position: relative;
     padding: 20px 15px;
@@ -820,11 +822,12 @@ ul li {
     text-transform: none;
     margin-bottom: 0;
 }
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
     .pricing-table-title {
         font-size: 32px;
     }
-}
+} */
 .section-content li {
     padding: 6px 0px;
 }
