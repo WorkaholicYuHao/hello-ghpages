@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="/hello-ghpages/src/main/css/person.css">
     <link rel="stylesheet" href="/hello-ghpages/src/main/css/disactive.css">
     <link rel="stylesheet" href="/hello-ghpages/src/main/css/iconfont.css">
+    <script src="/hello-ghpages/src/main/js/jquery.min.js"></script>
     <script src="/hello-ghpages/src/main/layui/layui.js"></script>
+    <script src="/hello-ghpages/src/main/js/select.js"></script>
 </head>
 <style>
+    .QPUI-selectbox {
+        width: 100px;
+        height: 26px;
+        line-height: 26px
+    }
+    
     .layui-tab {
         width: 848px;
         background-color: white;
@@ -109,12 +117,12 @@
                     <div class="title">
                         <span>店铺类型</span>
                         <select>
-                                    <option>请选择</option>
-                                    <option>123232</option>
-                                    <option>232323</option>
-                                    <option>3232323</option>
-                                    <option>4233232321</option>
-                                </select>
+                            <option>请选择</option>
+                            <option>123232</option>
+                            <option>232323</option>
+                            <option>3232323</option>
+                            <option>4233232321</option>
+                        </select>
                         <input type="text" placeholder="请输入活动名称" class="checkAt">
                         <input type="button" class="buttonAt">
                     </div>
@@ -341,6 +349,7 @@
     start();
 
     function start() {
+        $('select').selectbox();
         layui.use('element', function() {
             var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
             //监听导航点击
