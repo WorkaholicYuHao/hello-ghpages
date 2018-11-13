@@ -3,15 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>折多多</title>
-    <link rel="stylesheet" href="/hello-ghpages/src/main/css/main.css">
-    <link rel="stylesheet" href="/hello-ghpages/src/main/layui/css/layui.css">
-    <link rel="stylesheet" href="/hello-ghpages/src/main/css/person.css">
-    <link rel="stylesheet" href="/hello-ghpages/src/main/css/tovip.css">
-    <link rel="stylesheet" href="/hello-ghpages/src/main/css/iconfont.css">
-    <script src="/hello-ghpages/src/main/js/jquery.min.js"></script>
-    <script src="/hello-ghpages/src/main/layui/layui.js"></script>
+    <link rel="stylesheet" href="/src/main/css/main.css">
+    <link rel="stylesheet" href="/src/main/layui/css/layui.css">
+    <link rel="stylesheet" href="/src/main/css/person.css">
+    <link rel="stylesheet" href="/src/main/css/tovip.css">
+    <link rel="stylesheet" href="/src/main/css/iconfont.css">
+    <script src="/src/main/js/jquery.min.js"></script>
+    <script src="/src/main/layui/layui.js"></script>
 </head>
 <style>
     .layui-tab {
@@ -29,14 +28,14 @@
 <body>
 
     <div class="banner" role="banner">
-        <header id="header">
+        <div id="header">
             <div class="header-content clearfix">
                 <a class="logo" href="http://hsrj.co"><img src="http://p8zxgltyx.bkt.clouddn.com/images/logo.png" alt="折多多" title="折多多"></a>
                 <nav class="navigation" role="navigation">
                     <ul class="primary-nav">
-                        <li><a href="/hello-ghpages/index.html" onclick="firstPage()" title="折多多">首页</a></li>
-                        <li><a href="/hello-ghpages/src/main/pages/register.html" onclick="toregister()">注册</a></li>
-                        <li><a href="/hello-ghpages/src/main/pages/login.html" onclick="tologin()">登陆</a></li>
+                        <li><a href="/index.html" onclick="firstPage()" title="折多多">首页</a></li>
+                        <li><a href="/src/main/pages/register.html" onclick="toregister()">注册</a></li>
+                        <li><a href="/src/main/pages/login.html" onclick="tologin()">登陆</a></li>
                         <!--
 <li><a href="#overview">花生日记是什么</a></li>
 <li><a href="#reg">如何注册</a></li>
@@ -49,109 +48,111 @@
                 <a href="#" class="nav-toggle">菜单<span></span></a>
             </div>
 
-        </header>
+        </div>
 
-        <div style="height: 200px"></div>
+        <div style="height: 96px"></div>
         <div class="Sj-person">
-            <div class="left-person">
-                <div class="first_person">
-                    <a class="first_person_a" href="/hello-ghpages/src/main/pages/person.html"> 个人中心首页</a>
-                </div>
-                <ul class="layui-nav layui-nav-tree" lay-filter="test">
-                    <li class="layui-nav-item ">
-                        <a href="javascript:;">精选试用管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/adversting.html">发布活动</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/activities.html">全部活动</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">折扣试用管理</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/introduce.html">模式介绍</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/discounts.html">发布活动</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/disactive.html">全部活动</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">我的账户</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/management.html">店铺管理</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/putforward.html">提现/账户明细</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/accountnumber.html">我的提现账号</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/safey.html">账户安全</a></dd>
-                            <dd><a href="/hello-ghpages/src/main/pages/recharge.html">账户充值</a></dd>
-                        </dl>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;">VIP通道</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/hello-ghpages/src/main/pages/tovip.html">成为VIP</a></dd>
-                        </dl>
-                    </li>
-                </ul>
-            </div>
-            <div class="right_person">
-                <div class="tovip">
-                    <div class="tovip_title">
-                        <span>开通服务</span>
+            <div class="total_total">
+                <div class="left-person">
+                    <div class="first_person">
+                        <a class="first_person_a" href="/src/main/pages/person.html"> 个人中心首页</a>
                     </div>
-                    <div class="tovip_content">
-                        <div class="type">
-                            <span>广告类型:</span>
-                            <div class="select_btn">
-                                <button class="adverbtn" id="btn1" onclick="btn(1)">钻石广告</button>
-                                <button class="adverbtn" id="btn2" onclick="btn(2)">铂金广告</button>
-                                <button class="adverbtn" id="btn3" onclick="btn(3)">普通广告</button>
-                            </div>
+                    <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                        <li class="layui-nav-item ">
+                            <a href="javascript:;">精选试用管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/src/main/pages/adversting.html">发布活动</a></dd>
+                                <dd><a href="/src/main/pages/activities.html">全部活动</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;">折扣试用管理</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/src/main/pages/introduce.html">模式介绍</a></dd>
+                                <dd><a href="/src/main/pages/discounts.html">发布活动</a></dd>
+                                <dd><a href="/src/main/pages/disactive.html">全部活动</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;">我的账户</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/src/main/pages/management.html">店铺管理</a></dd>
+                                <dd><a href="/src/main/pages/putforward.html">提现/账户明细</a></dd>
+                                <dd><a href="/src/main/pages/accountnumber.html">我的提现账号</a></dd>
+                                <dd><a href="/src/main/pages/safey.html">账户安全</a></dd>
+                                <dd><a href="/src/main/pages/recharge.html">账户充值</a></dd>
+                            </dl>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="javascript:;">VIP通道</a>
+                            <dl class="layui-nav-child">
+                                <dd><a href="/src/main/pages/tovip.html">成为VIP</a></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right_person">
+                    <div class="tovip">
+                        <div class="tovip_title">
+                            <span>开通服务</span>
                         </div>
-                        <div class="vservice">
-                            <span>会员服务:</span>
-                            <div class="select_vip">
-                                <button class="dottedbtn" id="btn4">钻石年费VIP</button>
-                                <button class="dottedbtn" id="btn5">铂金年费VIP</button>
-                                <button class="dottedbtn" id="btn6">普通年费VIP</button>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <span>服务说明:</span>
-                            <div class="info_content">
-                                成为VIP会员后，可在服务期内无限发布精选试用活动，享受运营指导，爆款指导服务。同时视VIP类型不同，赠送相应的推荐试用、领券券、广告套餐、运营培训等服务。
-                                <p>[了解完整服务]</p>
-                            </div>
-                        </div>
-                        <p class="diamondMoney">本次总计需支付的金额:<span class="money">10000</span>元 &nbsp;&nbsp; (市场价:<span style=" text-decoration: line-through;">12000</span>)
-                        </p>
-                        <p class="platinumMoney">本次总计需支付的金额:<span class="money">5000</span>元 &nbsp;&nbsp; (市场价:<span style=" text-decoration: line-through;">6000</span>)
-                        </p>
-                        <p class="ordinaryMoney">本次总计需支付的金额:<span class="money">2835</span>元 &nbsp;&nbsp; (市场价:<span style=" text-decoration: line-through;">3000</span>)
-                        </p>
-                        <div class="payType">
-                            <p>提示：请在付款备注中注明您的领啦帐户名</p>
-                            <div class="payfor">
-                                <div class="payTypes">
-                                    <span>付款方式：</span>
+                        <div class="tovip_content">
+                            <div class="type">
+                                <span>广告类型:</span>
+                                <div class="select_btn">
+                                    <button class="adverbtn" id="btn1" onclick="btn(1)">钻石广告</button>
+                                    <button class="adverbtn" id="btn2" onclick="btn(2)">铂金广告</button>
+                                    <button class="adverbtn" id="btn3" onclick="btn(3)">普通广告</button>
                                 </div>
-                                <div class="payUser">
-                                    <img src="/hello-ghpages/src/main/images/fb.png">
-                                    <div class="message">
-                                        <p class="payBaoUser">支付宝账号:<span>pay@zheduoduo.com</span></p>
-                                        <p class="payBaoName">收款人:<span>北京白马科技有限公司</span></p>
+                            </div>
+                            <div class="vservice">
+                                <span>会员服务:</span>
+                                <div class="select_vip">
+                                    <button class="dottedbtn" id="btn4">钻石年费VIP</button>
+                                    <button class="dottedbtn" id="btn5">铂金年费VIP</button>
+                                    <button class="dottedbtn" id="btn6">普通年费VIP</button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span>服务说明:</span>
+                                <div class="info_content">
+                                    成为VIP会员后，可在服务期内无限发布精选试用活动，享受运营指导，爆款指导服务。同时视VIP类型不同，赠送相应的推荐试用、领券券、广告套餐、运营培训等服务。
+                                    <p>[了解完整服务]</p>
+                                </div>
+                            </div>
+                            <p class="diamondMoney">本次总计需支付的金额:<span class="money">10000</span>元 &nbsp;&nbsp; (市场价:<span style=" text-decoration: line-through;">12000</span>)
+                            </p>
+                            <p class="platinumMoney">本次总计需支付的金额:<span class="money">5000</span>元 &nbsp;&nbsp; (市场价:<span style=" text-decoration: line-through;">6000</span>)
+                            </p>
+                            <p class="ordinaryMoney">本次总计需支付的金额:<span class="money">2835</span>元 &nbsp;&nbsp; (市场价:<span style=" text-decoration: line-through;">3000</span>)
+                            </p>
+                            <div class="payType">
+                                <p>提示：请在付款备注中注明您的领啦帐户名</p>
+                                <div class="payfor">
+                                    <div class="payTypes">
+                                        <span>付款方式：</span>
+                                    </div>
+                                    <div class="payUser">
+                                        <img src="/src/main/images/fb.png">
+                                        <div class="message">
+                                            <p class="payBaoUser">支付宝账号:<span>pay@zheduoduo.com</span></p>
+                                            <p class="payBaoName">收款人:<span>北京白马科技有限公司</span></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="already">
-                            <input type="checkbox" checked="" disabled="">我已阅读协议，知悉并认可协议条款<span style="cursor: pointer;" onclick=" window.open('/help/VIPAdvert') ">《领啦网广告服务协议》</span>、<span style="cursor: pointer;" onclick=" window.open('/help/VIP') ">《领啦网VIP会员服务协议》</span>
-                        </div>
-                        <div class="already_btn">
-                            <button class="submit_btn">
+                            <div class="already">
+                                <input type="checkbox" checked="" disabled="">我已阅读协议，知悉并认可协议条款<span style="cursor: pointer;" onclick=" window.open('/help/VIPAdvert') ">《领啦网广告服务协议》</span>、<span style="cursor: pointer;" onclick=" window.open('/help/VIP') ">《领啦网VIP会员服务协议》</span>
+                            </div>
+                            <div class="already_btn">
+                                <button class="submit_btn">
                                 已付款，提交审核
                             </button>
-                        </div>
-                        <span class="span_last">
+                            </div>
+                            <span class="span_last">
                             [了解VIP会员服务]
                         </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -247,4 +248,3 @@
 </script>
 
 </html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">

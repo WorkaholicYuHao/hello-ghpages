@@ -41,9 +41,7 @@
     color: #797979;
     padding-left: 3px;
     font-size: 12px;
-    border: 1px solid #DDD;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #B7B7B7;
+    margin: 0 50px;
 }
 
 .table-style table tr {
@@ -54,7 +52,7 @@
 }
 
 input.buttonAt {
-    background: url(/hello-ghpages/src/main/images/se.gif) no-repeat scroll left center transparent;
+    background: url(/src/main/images/se.gif) no-repeat scroll left center transparent;
     border: 0px none;
     cursor: pointer;
     height: 28px;
@@ -63,7 +61,7 @@ input.buttonAt {
     outline: none;
     vertical-align: middle;
     position: relative;
-    margin-left: -105px;
+    margin-left: -155px;
 }
 
 .clearfix.right_g strong {

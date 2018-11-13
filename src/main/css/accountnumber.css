@@ -157,6 +157,12 @@
     margin-left: 26px;
 }
 
-body{
+body {
     background-color: #f4f5f9;
+}
+
+.total_total {
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 30px;
 }

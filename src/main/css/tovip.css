@@ -203,7 +203,7 @@ input {
     display: inline-block;
     color: #fff;
     font: bold 16px "Microsoft Yahei";
-        line-height: normal;
+    line-height: normal;
     line-height: normal;
     line-height: 44px;
     text-align: center;
@@ -221,6 +221,12 @@ input {
     cursor: pointer;
 }
 
-body{
+body {
     background-color: #f4f5f9;
+}
+
+.total_total {
+    width: 1020px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
