@@ -1,7 +1,7 @@
 .total_page {
     min-width: 1200px;
     height: 1400px;
-    background: url(/hello-ghpages/src/main/images/banner.jpg) center no-repeat;
+    background: url(../images/banner.jpg) center no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .actives {
-    background: url(/hello-ghpages/src/main/images/dbx.png) center no-repeat;
+    background: url(../images/dbx.png) center no-repeat;
     background-size: 100% 100%;
     color: red;
     transition: .5s;
@@ -239,7 +239,7 @@ li {
 .part4 {
     min-width: 1200px;
     height: 1100px;
-    background: url(/hello-ghpages/src/main/images/cjwt.jpg) center no-repeat;
+    background: url(../images/cjwt.jpg) center no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
 }

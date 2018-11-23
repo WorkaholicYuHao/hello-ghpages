@@ -10,19 +10,19 @@
 .Validform_right {
     color: #71b83d;
     padding-left: 20px;
-    background: url(/src/main/images/yes.png) no-repeat left center;
+    background: url(../images/yes.png) no-repeat left center;
 }
 
 .Validform_wrong {
     color: red;
     padding-left: 20px;
     white-space: nowrap;
-    background: url(/src/main/images/no.png) no-repeat left center;
+    background: url(../images/no.png) no-repeat left center;
 }
 
 .Validform_loading {
     padding-left: 20px;
-    background: url(/src/main/images/01-4.jpg) no-repeat left center;
+    background: url(../images/01-4.jpg) no-repeat left center;
 }
 
 .Validform_error {

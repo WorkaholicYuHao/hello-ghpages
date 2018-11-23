@@ -23,7 +23,7 @@ strong {
     padding-bottom: 60px;
 }
 
-.updataPwd_main{
+.updataPwd_main {
     width: 700px;
     margin: 46px auto;
 }
@@ -40,11 +40,13 @@ strong {
     border: 1px solid #d4d4d4;
 }
 
-label, input, select {
+label,
+input,
+select {
     vertical-align: middle;
 }
 
-.main_input{
+.main_input {
     float: left !important;
     margin-top: 50px !important;
     margin-left: 40px !important;
@@ -58,7 +60,7 @@ label, input, select {
     margin-left: 15px;
 }
 
-.isRed{
+.isRed {
     border: 1px solid #f57777;
     background: #fff5f5;
 }
@@ -73,7 +75,7 @@ label, input, select {
     margin: 15px 0px;
 }
 
-.main_cs{
+.main_cs {
     width: 100px;
     height: 30px;
     display: block;
